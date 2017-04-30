@@ -78,17 +78,17 @@
   *-------------------------------------------------------------------------
       Value of variable($var) |	isset($var)	 | empty($var) | is_null($var)
   *-------------------------------------------------------------------------
-	“” (an empty string)	  | bool(true)	 | bool(true) |
-	” ” (space)				  | bool(true)	 | 	           |
-    FALSE	                  | bool(true)	 | bool(true)  |	
-    TRUE	                  | bool(true)	 |             |
-    array()(an empty array)	  | bool(true)	 | bool(true)  |
-    NULL		              				 | bool(true)  |  bool(true)  
-    “0” (0 as a string)	      | bool(true)	 | bool(true)  |
-	0 (0 as an integer)	      | bool(true)	 | bool(true)  |
-	0.0 (0 as a float)	      | bool(true)	 | bool(true)  |
-	var $var;              	  | 	         | bool(true)  | bool(true)
-	NULL byte (“\ 0”)	      | bool(true)   | 	           |
+  *	“” (an empty string)	  | bool(true)	 | bool(true) |
+  *	” ” (space)				  | bool(true)	 | 	           |
+  *  FALSE	                  | bool(true)	 | bool(true)  |	
+  *  TRUE	                  | bool(true)	 |             |
+  * array()(an empty array)	  | bool(true)	 | bool(true)  |
+  *  NULL		              				 | bool(true)  |  bool(true)  
+  *  “0” (0 as a string)      | bool(true)	 | bool(true)  |
+  * 0 (0 as an integer)	      | bool(true)	 | bool(true)  |
+  * 0.0 (0 as a float)	      | bool(true)	 | bool(true)  |
+  * var $var;              	  | 	         | bool(true)  | bool(true)
+  * NULL byte (“\ 0”)	      | bool(true)   | 	           |
   * -------------------------------------------------------------------------
   */
  
